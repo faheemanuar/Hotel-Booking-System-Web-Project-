@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Marmoris Hotel</title>
+        
+        <link rel="stylesheet" href="headerfooter.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="slideshow.css"/>
+        <link rel="stylesheet" href="opening.css"/>
+        <link rel="stylesheet" href="listing.css"/>
+      
+        
+        <script src="slideshow.js" defer></script> 
+        <script src="listingimage.js" defer></script> 
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="marmorislogo.png" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                    <button class="dropbtn">BOOK ROOM</button>
+                    <div class="dropdown-content">
+                        <a href="">Booking</a>
+                        <a href="">Order</a>
+                        </div>
+                    </li>
+                        <li class="dropdown">
+                        <button class="dropbtn">TYPE ROOM</button>
+                        <div class="dropdown-content">
+                            <a href="">Deluxe Twin</a>
+                            <a href="">Deluxe Queen</a>
+                            <a href="">Deluxe Triple</a>
+                            
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn"><i class="far fa-envelope"></i></a>
+                    <div class="dropdown-content">
+                        <a href="Review.html">Review</a>    
+                    </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <a href="javascript:void(0)" class="dropbtn"><i class="fas fa-user-alt"></i></a>
+                        <div class="dropdown-content">
+                            <a href="manageprofile.html">Manage Profile</a>
+                            <a href="homepage.jsp">Logout</a>
+                        </div>
+                    </li>
+                    
+                </ul>   
+            </nav>
+        </header>
+
+        <main>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="marmoris5.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="marmoris2.png" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="marmoris6.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="Opening" style="text-align: center">
+                <h1>Welcome to Marmoris House</h1>
+                <h3>Your convenience is our happiness</h3>
+            </div>
+
+            <div class="Description">
+                <p>
+                    Surpassing a typical hotel stay, Marmoris Hotel in UMT prioritizes exceptional service.<br> 
+                    From personalized greetings to thoughtful surprises and attentive staff anticipating your every need, <br>
+                    Marmoris Hotel promises an experience where you feel like royalty.
+                </p>
+            </div>
+
+
+            <div class="listing">
+                <h2>Choose your room</h2>
+                <div class="room">
+                    <div class="room-images">
+                        <img class="slide" src="Deluxequeen1.png" alt="Deluxe Queen Room">
+                        <div class="info">
+                            <h3>Deluxe Queen <span class="price">RM100 only!</span></h3>
+                            <p>Room size: 306 sqft</p>
+                            <p>AC, TV, Seating Area, +3 more</p>
+                            <a href="booking.jsp" class="button">Book Now!</a>
+                        </div>
+                    </div>
+                </div><br>
+
+                <div class="room">
+                    <div class="room-images">
+                        <img class="slide" src="DeluxeTwin.png" alt="Deluxe Queen Room">
+                        <div class="info">
+                            <h3>Deluxe Queen <span class="price">RM100 only!</span></h3>
+                            <p>Room size: 306 sqft</p>
+                            <p>AC, TV, Seating Area, +3 more</p>
+                            <a href="booking.jsp" class="button">Book Now!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="room">
+                    <div class="room-images">
+                        <img class="slide" src="DeluxeTriple.png" alt="Deluxe Queen Room">
+                        <div class="info">
+                            <h3>Deluxe Queen <span class="price">RM100 only!</span></h3>
+                            <p>Room size: 306 sqft</p>
+                            <p>AC, TV, Seating Area, +3 more</p>
+                            <a href="booking.jsp" class="button">Book Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="about">
+                    <a href="about.jsp">ABOUT US</a>
+                </div>
+                <div class="copyright">
+                    Marmoris Hotel &copy;
+                    <script>document.write(new Date().getFullYear());</script>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/icreateumtofficial">
+                        <img src="bxl-facebook.svg" alt="Facebook"/>
+                    </a>
+                    <a href="https://x.com/IcreateUmt?s=09">
+                        <img src="bxl-twitter.svg" alt="Twitter"/>
+                    </a>
+                    <a href="https://www.instagram.com/icreateumt/?r=nametag">
+                        <img src="bxl-instagram.svg" alt="Instagram"/>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=601158623277&text&type=phone_number&app_absent=0">
+                        <img src="bxl-whatsapp.svg" alt="Instagram"/>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

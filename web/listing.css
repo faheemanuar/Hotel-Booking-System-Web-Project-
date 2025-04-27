@@ -1,0 +1,24 @@
+.room-images {
+  float: left; /* Float the images to the left */
+  margin-right: 20px; /* Add some space between the images and the info */
+}
+.room-images img {
+  max-width: 35vw; /* Adjust as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust margin value as needed */
+  margin-left: 20px; /* Add left margin to indent the images */
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.room-images img:hover {
+  transform: scale(1.05); /* Scale up the image slightly on hover */
+}
+
+.room {
+  margin-right: 20px; /* You can adjust this margin as needed */
+  margin-bottom: 20px;
+}
+.info {
+  float: right; /* Float the info div to the left */
+  margin-top: 0; /* Reset the margin-top */
+}
